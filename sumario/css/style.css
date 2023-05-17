@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif
+}
+
+:root{
+    --light-slade-blue:hsl(252, 100%, 67%);
+    --Light-royal-blue:hsl(241, 81%, 54%);
+    --Violet-blue:hsla(256, 72%, 46%, 1);
+    --Persian-blue:hsla(241, 72%, 46%, 0);
+
+    /* Icons */
+
+    --Light-red:hsla(0, 100%, 67%, 0.13);
+    --Orangey-yellow:hsla(39, 100%, 56%, 0.13);
+    --Green-teal:hsl(166, 100%, 37%, 0.13);
+    --Cobalt-blue:hsl(234, 85%, 45%, 0.13);
+}
+
+body{
+    background-color: #fff;
+}
+
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.result{
+    color: #fff;
+    background-color: var(--Green-teal);
+    background: linear-gradient(to bottom, var(--light-slade-blue),var(--Light-royal-blue));
+    width: 200px;
+    height: 500px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nuber{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    background: linear-gradient(to bottom, var(--Violet-blue),var(--Persian-blue));
+}
+
+.sumurry{
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+}
+
+form{
+    display: flex;
+}
+
+.info{
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+
+.rea, .mem, .ver, .vis{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 30px;
+    border-radius: 9px;
+    text-align: start;
+}
+
+.rea{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: var(--Light-red);
+    color: red;
+}
+.mem{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: var(--Orangey-yellow);
+    color: rgb(255, 209, 2);
+}
+.ver{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: var(--Green-teal);
+    color: rgb(87, 194, 0);
+}
+.vis{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: var(--Cobalt-blue);
+    color: rgba(0, 0, 255, 0.658);
+}
+img{
+    
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+input{
+    color: #fff;
+    width: 300px;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 50px;
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: aqua;
+    background: linear-gradient(to bottom, var(--light-slade-blue),var(--Light-royal-blue));
+}
